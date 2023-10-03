@@ -1,0 +1,51 @@
+:root {
+    --bg:#212121;
+}
+
+body {
+    background-color:var(--bg);
+    margin: 0;
+    display: grid;
+
+}
+
+/********** HOMEPAGE **********/
+#Home {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.background-img {
+    position: absolute;
+    height: 100%;
+    width:100%;
+    opacity: 0.5;
+}
+    
+.Home-div-1 { 
+    grid-area: 1 / 1 / 2 / 13; 
+}
+
+.Home-div-2 { 
+    grid-area: 3 / 2 / 9 / 5; 
+    background-color:yellowgreen
+}
+
+.Home-div-3 { 
+    grid-area: 4 / 6 / 6 / 12; 
+    background-color:orange
+}
+
+.Home-div-4 { 
+    grid-area: 7 / 6 / 8 / 12; 
+    background-color:tan
+}
+
+.Home-div-5 { 
+    grid-area: 11 / 1 / 13 / 13; 
+    background-color:teal
+}
