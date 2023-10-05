@@ -5,28 +5,24 @@
     }
 
     .Home-div-1 { 
-        grid-area: 1 / 1 / 2 / 13;
-        background-color:yellow
+        grid-area: 1 / 1 / 2 / 13; 
     }
     
     .Home-div-2 { 
-        grid-area: 3 / 3 / 7 / 11; 
-        background-color:yellowgreen
+        grid-area: 2 / 2 / 9 / 12;
+       
     }
-    
-    .Home-div-3 { 
-        grid-area: 8 / 4 / 10 / 10;
-        background-color:orange
-    }
-    
-    .Home-div-4 { 
-        grid-area: 10 / 5 / 11 / 9;
-        background-color:tan
-    }
-    
-    .Home-div-5 { 
-        grid-area: 12 / 1 / 13 / 13; 
-        background-color:teal
+
+    .title-name {
+
+        margin-top: 0%;
+        margin-bottom: 0;
+        font-size: 4rem;
+    } 
+
+    .title-p {
+        font-size: 1.2rem;
+        margin-top: 0%;
     }
 }
 

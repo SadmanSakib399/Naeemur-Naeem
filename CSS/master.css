@@ -17,13 +17,15 @@ body {
     grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    opacity: 100%;
 }
 
 .background-img {
     position: absolute;
     height: 100%;
     width:100%;
-    opacity: 0.5;
+    opacity:50%;
+    z-index: -1;
 }
     
 .Home-div-1 { 
@@ -31,21 +33,6 @@ body {
 }
 
 .Home-div-2 { 
-    grid-area: 3 / 2 / 9 / 5; 
-    background-color:yellowgreen
-}
-
-.Home-div-3 { 
-    grid-area: 4 / 6 / 6 / 12; 
-    background-color:orange
-}
-
-.Home-div-4 { 
-    grid-area: 7 / 6 / 8 / 12; 
-    background-color:tan
-}
-
-.Home-div-5 { 
-    grid-area: 11 / 1 / 13 / 13; 
-    background-color:teal
+    grid-area: 3 / 2 / 9 / 12;
+   
 }
