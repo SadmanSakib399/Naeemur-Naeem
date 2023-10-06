@@ -3,7 +3,7 @@
 /***** navbar *****/
 .custom-nav {
   margin: 1rem 8%;
-
+  
 }
 
 .nav-margin {
@@ -35,8 +35,6 @@
 }
 
 /* nav-button */
-
-
 .nav-button {
   --bg: #212121;
   --hover-bg: #fff;
@@ -63,7 +61,6 @@
 }
 
 /* title  */
-
 .title-name {
 
   margin-top: 6%;
@@ -164,4 +161,18 @@
     content: "developer";
     animation: sequencePopup 12s linear infinite;
   }
+}
+
+/********** About **********/
+.about-img {
+  height: 350px;
+  width: 250px;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  box-shadow: 3px 3px #ffffff;
+
+}
+
+.about-text1,.about-text2 {
+  color: #fff;
 }
