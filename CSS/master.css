@@ -14,12 +14,7 @@ body {
 /********** HOMEPAGE **********/
 #Home {
     height:60rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    opacity: 100%;
+    
 }
 
 .background-img {
@@ -29,13 +24,11 @@ body {
     opacity:50%;
     z-index: -1;
 }
-    
-    .Home-div-1 { 
-        grid-area: 1 / 1 / 2 / 13; 
-    }
-    .Home-div-2 { 
-        grid-area: 3 / 2 / 7 / 12;
-    }
+
+.img-phone{
+    display: none;
+}
+
 
 
 /********** ABOUT **********/
@@ -43,26 +36,6 @@ body {
 #About{
 
     height:50rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
 
 }
         
-    .div1 { 
-        grid-area: 2 / 4 / 8 / 5;
-    }
-    .div2 { 
-        grid-area: 3 / 6 / 4 / 10;
-    }
-    /* .div3 { 
-        grid-area: 4 / 6 / 8 / 12;
-        background-color: green;
-    }
-    .div4 { 
-        grid-area: 9 / 2 / 12 / 12;
-        background-color:turquoise;
-    } */
-

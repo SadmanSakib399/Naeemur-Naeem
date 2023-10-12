@@ -1,13 +1,21 @@
 /********** homepage **********/
 
+:root {
+  --font-1:'Rubik Mono One', monospace; 
+  --font-2:'Courier Prime', monospace;
+  --font-3:'Young Serif', serif;
+}
+
+
 /***** navbar *****/
 .custom-nav {
-  margin: 1rem 8%;
+  margin: 1rem 10%;
   
 }
 
 .nav-margin {
-  margin-left: 75%;
+
+  margin: 0 0 0 75%;
 
 }
 
@@ -63,7 +71,7 @@
 /* title  */
 .title-name {
 
-  margin-top: 6%;
+  margin-top: 15%;
   margin-bottom: 0;
   text-transform: uppercase;
   font-size: 10rem;
@@ -80,7 +88,7 @@
   -webkit-text-stroke-color: #ffffff;
 
   text-transform: capitalize;
-
+  
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
@@ -165,8 +173,8 @@
 
 /********** About **********/
 .about-img {
-  height: 350px;
-  width: 250px;
+  height: 550px;
+  width: 450px;
   border-radius: 50px;
   border: 2px solid #000000;
   box-shadow: 3px 3px #ffffff;
@@ -175,4 +183,6 @@
 
 .about-text1,.about-text2 {
   color: #fff;
+  font-family: var(--font-2);
+  font-size: 1.2rem;
 }

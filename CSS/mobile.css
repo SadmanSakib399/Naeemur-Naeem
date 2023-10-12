@@ -1,29 +1,43 @@
 @media only screen and (max-width: 600px) { 
 
     #Home {
-        height: 250%;
+        height: 800px;
     }
 
-    .Home-div-1 { 
-        grid-area: 1 / 1 / 2 / 13; 
+    .img-pc{
+        display: none; 
     }
-    
-    .Home-div-2 { 
-        grid-area: 2 / 2 / 9 / 12;
-       
+
+    .img-phone{
+        display: initial;
     }
 
     .title-name {
 
-        margin-top: 0%;
+        margin-top: 50%;
         margin-bottom: 0;
-        font-size: 4rem;
+        font-size: 5rem;
     } 
 
     .title-p {
         font-size: 1.2rem;
         margin-top: 0%;
     }
+
+    #About{
+
+        height:50rem;
+    
+    }
+    
+    .about-img {
+        height: 350px;
+        width: 250px;
+        border-radius: 50px;
+        border: 2px solid #000000;
+        box-shadow: 3px 3px #ffffff;
+    }
+    
 }
 
 @media only screen and (min-width: 600px) and (max-width:991px) {
