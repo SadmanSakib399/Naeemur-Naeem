@@ -29,13 +29,30 @@
         height:50rem;
     
     }
+
+    .row {
+        align-items: center;
+        flex-direction: column;
+        margin: 2%;
+      
+      }
     
     .about-img {
-        height: 350px;
+        height: 320px;
         width: 250px;
         border-radius: 50px;
         border: 2px solid #000000;
         box-shadow: 3px 3px #ffffff;
+        margin-bottom: 20px;
+        margin-top: 2rem;
+
+    }
+
+
+    .about-text1,.about-text2 {
+        color: #fff;
+        font-family: var(--font-2);
+        font-size: 0.99rem;
     }
     
 }
