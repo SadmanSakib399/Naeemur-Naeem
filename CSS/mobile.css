@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) { 
 
     #Home {
-        height: 800px;
+        height:52rem;
     }
 
     .img-pc{
@@ -24,10 +24,29 @@
         margin-top: 0%;
     }
 
+    .svg-2 {
+        display: initial ;
+        width: 100%;
+    }
+
+    .svg-1 {
+        display: none ;
+    }
+
     #About{
 
-        height:50rem;
+        height:100%;
+        background-color: var(--bg4);
     
+    }
+
+    .social-img {
+        display: initial;
+        position: absolute;
+        height:100%;
+        width:100%;
+        z-index: -1;
+        top: 80rem;
     }
 
     .row {

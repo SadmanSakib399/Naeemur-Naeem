@@ -2,6 +2,7 @@
     --bg1:#212121;
     --bg2:#131313;
     --bg3:#000000;
+    --bg4:#323232;
 }
 
 body {
@@ -9,6 +10,11 @@ body {
     margin: 0;
     display: grid;
 
+}
+
+/********** SVG **********/
+.svg-2 {
+    display: none ;
 }
 
 /********** HOMEPAGE **********/
@@ -36,6 +42,23 @@ body {
 #About{
 
     height:50rem;
+    background-color: var(--bg1);
 
 }
+
+.social-img {
+
+    display: none;
+}
+
+
+/********** ABOUT **********/
+
+#social{
+    margin-top: 25rem;
+
+}
+
+
+    
         
